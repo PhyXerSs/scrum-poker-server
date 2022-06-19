@@ -15,7 +15,7 @@ export class PokerController {
   constructor(private readonly appService: PokerService) { }
   @Get('/')
   getHello(): string {
-    return 'ssss';
+    return 'test poker';
   }
 
   @Post('keepchat/:room')
